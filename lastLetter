@@ -1,0 +1,9 @@
+import re
+
+list1 = ['Ibrahim','2001','Diploma','Husain','2003','B.tech']
+
+r = re.compile(".*i$")
+
+newlist = list(filter(r.match, list1))
+
+print(newlist)
