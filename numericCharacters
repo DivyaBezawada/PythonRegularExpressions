@@ -1,0 +1,11 @@
+#Listing all the items which has only numeric characters.
+
+import re
+
+list1 = ['Ibrahim','2001','Diploma','Husain','2003','B.tech']
+
+r = re.compile('[0-9]')
+
+newlist = list(filter(r.match, list1))
+
+print(newlist)
