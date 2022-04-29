@@ -7,3 +7,4 @@ list1 = ['Ibrahim','2001','Diploma','Husain','2003','B.tech']
 r = re.compile("c*[a-zA-Z0-9]+k+")  
 newlist = list(filter(r.match, list1))
 print(newlist)
+
