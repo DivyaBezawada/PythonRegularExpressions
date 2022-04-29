@@ -1,0 +1,11 @@
+#Listing all the items ending with the letters 'a' or 'h'.
+
+import re
+
+list1 = ['Ibrahim','2001','Diploma','Husain','2003','B.tech']
+
+r = re.compile(".*(a|h)$")
+
+newlist = list(filter(r.match, list1))
+
+print(newlist)
