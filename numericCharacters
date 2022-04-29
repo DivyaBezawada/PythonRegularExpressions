@@ -9,3 +9,4 @@ r = re.compile('[0-9]')
 newlist = list(filter(r.match, list1))
 
 print(newlist)
+
