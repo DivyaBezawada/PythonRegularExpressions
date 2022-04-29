@@ -1,3 +1,5 @@
+#List all the items which has last but one character is 'i'.
+
 import re
 
 list1 = ['Ibrahim','2001','Diploma','Husain','2003','B.tech']
